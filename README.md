@@ -31,8 +31,10 @@ rclone_server_pass # rclone server password
 
 ## Module Structure
 
+```
 ├── modules/
 │ ├── ecr/ # Amazon ECR repository configuration
 │ ├── iam/ # IAM roles and policies
 │ └── apprunner/ # AWS App Runner service configuration
 └── main.tf # Main Terraform configuration
+```
